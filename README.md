@@ -9,11 +9,15 @@ The analysis is divided into five critical phases:
 1. **Data Preprocessing:** Merging multiple datasets and cleaning 100k+ records.
 2. **RFM Modeling:** Calculating Recency, Frequency, and Monetary values for every unique customer.
 3. **Customer Segmentation:** Using quintile-based scoring to assign segments (e.g., Champions, Loyal, At Risk).
+
 ![Segmentation](visual_insights/customer_segmentation.png)
 *Hierarchical view of customer segments*
+
 4. **Advanced Visualizations:** Creating Heatmaps, Treemaps, and Snake Plots to understand segment behavior.
+
 ![Advanced Visualization](visual_insights/snake_plot.png)
 *Standardized behavior patterns across RFM metrics*
+
 5. **Interactive Dashboard:** Developed a real-time dashboard using **Streamlit** for business stakeholders.
 
 ## Tech Stack
@@ -26,8 +30,10 @@ The analysis is divided into five critical phases:
 ## Key Features
 - **Behavioral Analysis:** Snake plots reveal that while "Champions" are highly active, a large portion of the base is "At Risk," requiring urgent retention strategies.
 - **Independence of Metrics:** Correlation heatmaps confirmed that R, F, and M are independent drivers of customer value in this dataset.
+
 ![Independence of Metrics](visual_insights/correlation.png)
 *Heatmap showing the independence of Recency, Frequency, and Monetary values*
+
 - **Dynamic Dashboard:** Filter segments in real-time to see KPI metrics like Total Revenue, Average Recency, and Segment Volume.
 
 ## Key Business Insights
