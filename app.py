@@ -32,7 +32,8 @@ try:
     rfm = load_data()
 
     # 4. Sidebar for Filters
-    st.sidebar.image("https://www.olist.com/wp-content/uploads/2020/06/olist-logo.png", width=150)
+    logo_path = "https://raw.githubusercontent.com/mueez-99/Olist-RFM-Analysis/main/visual_insights/dashboard.png"
+    st.sidebar.image(logo_path, use_container_width=True)
     st.sidebar.title("Filters")
     segments = st.sidebar.multiselect(
         "Select Segments:", 
