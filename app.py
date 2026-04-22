@@ -32,7 +32,7 @@ try:
     rfm = load_data()
 
     # 4. Sidebar for Filters
-    logo_path = "https://raw.githubusercontent.com/RaoMueez/ecommerce_rfm_analysis/main/visual_insights/dashboard.png"
+    logo_path = "https://raw.githubusercontent.com/RaoMueez/ecommerce_rfm_analysis/main/visual_insights/ss(2).png"
     st.sidebar.image(logo_path, use_container_width=True)
     st.sidebar.title("Filters")
     segments = st.sidebar.multiselect(
